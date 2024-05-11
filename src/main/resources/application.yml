@@ -1,7 +1,7 @@
 spring:
   datasource:
-#    url: jdbc:sqlite:/Users/LinhDT/tunk/vtask.db
-    url: jdbc:sqlite:/root/vtask.db
+    url: jdbc:sqlite:/Users/LinhDT/tunk/vtask.db
+#    url: jdbc:sqlite:/root/vtask.db
     driver-class-name: org.sqlite.JDBC
   jpa:
     database-platform: org.hibernate.community.dialect.SQLiteDialect
